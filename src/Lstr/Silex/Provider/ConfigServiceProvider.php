@@ -21,7 +21,7 @@ class ConfigServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
-        $app['lidsys.config'] = $app->share(function ($app) {
+        $app['lstr.config'] = $app->share(function ($app) {
             return new ConfigService($app);
         });
     }

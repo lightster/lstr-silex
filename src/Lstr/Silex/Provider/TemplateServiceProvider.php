@@ -21,9 +21,9 @@ class TemplateServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
-        $app['lidsys.template.options']  = array();
-        $app['lidsys.template.path']     = new ArrayObject();
-        $app['lidsys.template.renderer'] = array(
+        $app['lstr.template.options']  = array();
+        $app['lstr.template.path']     = new ArrayObject();
+        $app['lstr.template.renderer'] = array(
             'html' => $app->share(function (array $path_info, array $context = array()) use ($app) {
                 return file_get_contents($path_info['path']);
             }),
@@ -34,15 +34,15 @@ class TemplateServiceProvider implements ServiceProviderInterface
             }),
         );
 
-        $app['lidsys.template'] = $app->share(function ($app) {
-            $app['lidsys.template.options'] = array_replace(
+        $app['lstr.template'] = $app->share(function ($app) {
+            $app['lstr.template.options'] = array_replace(
                 array(
                     'debug' => $app['debug'],
                 ),
-                $app['lidsys.template.options']
+                $app['lstr.template.options']
             );
 
-            return new TemplateService($app, $app['lidsys.template.options']);
+            return new TemplateService($app, $app['lstr.template.options']);
         });
     }
 

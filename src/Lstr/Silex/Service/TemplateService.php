@@ -22,7 +22,7 @@ class TemplateService
     {
         $this->app     = $app;
         $this->options = $options;
-        $this->path    = $app['lidsys.template.path'];
+        $this->path    = $app['lstr.template.path'];
     }
 
 
@@ -33,10 +33,10 @@ class TemplateService
 
         $file_ext = pathinfo($name, PATHINFO_EXTENSION);
 
-        if (!isset($app['lidsys.template.renderer'][$file_ext])) {
+        if (!isset($app['lstr.template.renderer'][$file_ext])) {
             throw new Exception\UnknownTemplateRender($file_ext);
         }
-        $renderer = $app['lidsys.template.renderer'][$file_ext];
+        $renderer = $app['lstr.template.renderer'][$file_ext];
 
         $paths   = $this->path;
         $paths[] = '';
