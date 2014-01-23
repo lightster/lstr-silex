@@ -1,0 +1,19 @@
+{
+	"name": "lightster/lstr-silex",
+	"description": "Lstr/Silex Quick-start Library",
+	"keywords": [
+		"silex",
+		"lstr",
+		"lightster"
+	],
+	"homepage": "http://lightdatasys.com",
+	"autoload": {
+		"psr-0": {
+			"Lstr\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.4.19",
+		"silex/silex": "~1.1"
+	}
+}
