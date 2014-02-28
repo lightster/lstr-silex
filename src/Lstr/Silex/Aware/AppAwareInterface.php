@@ -15,5 +15,5 @@ use Silex\Application;
 interface AppAwareInterface
 {
     public function setSilexApplication(Application $app);
-    public function getSilexApplication(Application $app);
+    public function getSilexApplication();
 }
