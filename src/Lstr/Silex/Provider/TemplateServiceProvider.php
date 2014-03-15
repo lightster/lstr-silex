@@ -37,7 +37,7 @@ class TemplateServiceProvider implements ServiceProviderInterface
         $app['lstr.template.configurer'] = $app->protect(function (Application $app) {
             $app['lstr.template.options'] = array_replace(
                 array(
-                    'debug' => $app['debug'],
+                    'debug' => !empty($app['debug']),
                 ),
                 $app['lstr.template.options']
             );
