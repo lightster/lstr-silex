@@ -44,7 +44,7 @@ class TemplateServiceProvider implements ServiceProviderInterface
         });
 
         $app['lstr.template'] = $app->share(function ($app) {
-            $configurer = $app['lstr.asset.configurer'];
+            $configurer = $app['lstr.template.configurer'];
             $configurer($app);
 
             return new TemplateService($app, $app['lstr.template.options']);
