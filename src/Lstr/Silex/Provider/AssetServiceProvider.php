@@ -26,7 +26,7 @@ class AssetServiceProvider implements ServiceProviderInterface
         $app['lstr.asset.assetrinc']  = array();
         $app['lstr.asset.url_prefix'] = null;
 
-        $app['lstr.asset'] = $app->share(function ($app) {
+        $app['lstr.asset.configurer'] = $app->protect(function (Application $app) {
             if (empty($app['lstr.asset.assetrinc'])
                 && !empty($app['config']['lstr.asset.assetrinc'])
             ) {
@@ -38,16 +38,22 @@ class AssetServiceProvider implements ServiceProviderInterface
                 $app['lstr.asset.url_prefix'] = $app['config']['lstr.asset.url_prefix'];
             }
 
-            $options = array_replace(
+            $app['lstr.asset.assetrinc'] = array_replace(
                 array(
                     'debug' => $app['debug'],
                 ),
                 $app['lstr.asset.assetrinc']
             );
+        });
+
+        $app['lstr.asset'] = $app->share(function (Application $app) {
+            $configurer = $app['lstr.asset.configurer'];
+            $configurer($app);
+
             return new AssetService(
                 $app['lstr.asset.path'],
                 $app['lstr.asset.url_prefix'],
-                $options
+                $app['lstr.asset.assetrinc']
             );
         });
         $app['lstr.asset.responder'] = $app->share(function ($app) {
