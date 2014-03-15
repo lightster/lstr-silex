@@ -22,18 +22,31 @@ class AssetServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
-        $app['lstr.asset.path'] = new ArrayObject();
+        $app['lstr.asset.path']       = new ArrayObject();
+        $app['lstr.asset.assetrinc']  = array();
+        $app['lstr.asset.url_prefix'] = null;
 
         $app['lstr.asset'] = $app->share(function ($app) {
+            if (empty($app['lstr.asset.assetrinc'])
+                && !empty($app['config']['lstr.asset.assetrinc'])
+            ) {
+                $app['lstr.asset.assetrinc'] = $app['config']['lstr.asset.assetrinc'];
+            }
+            if (empty($app['lstr.asset.url_prefix'])
+                && !empty($app['config']['lstr.asset.url_prefix'])
+            ) {
+                $app['lstr.asset.url_prefix'] = $app['config']['lstr.asset.url_prefix'];
+            }
+
             $options = array_replace(
                 array(
                     'debug' => $app['config']['debug'],
                 ),
-                $app['config']['lstr.asset.assetrinc']
+                $app['lstr.asset.assetrinc']
             );
             return new AssetService(
                 $app['lstr.asset.path'],
-                $app['config']['lstr.asset.url_prefix'],
+                $app['lstr.asset.url_prefix'],
                 $options
             );
         });
