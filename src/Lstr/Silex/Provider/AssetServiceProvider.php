@@ -40,7 +40,7 @@ class AssetServiceProvider implements ServiceProviderInterface
 
             $app['lstr.asset.assetrinc'] = array_replace(
                 array(
-                    'debug' => $app['debug'],
+                    'debug' => !empty($app['debug']),
                 ),
                 $app['lstr.asset.assetrinc']
             );
