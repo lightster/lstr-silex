@@ -40,7 +40,7 @@ class AssetServiceProvider implements ServiceProviderInterface
 
             $options = array_replace(
                 array(
-                    'debug' => $app['config']['debug'],
+                    'debug' => $app['debug'],
                 ),
                 $app['lstr.asset.assetrinc']
             );
