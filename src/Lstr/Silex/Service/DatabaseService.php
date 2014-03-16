@@ -48,4 +48,15 @@ class DatabaseService
 
         return $this->pdo;
     }
+
+
+
+    public function query($sql, array $params = array())
+    {
+        $pdo   = $this->getPdo();
+        $query = $pdo->prepare($sql);
+        $query->execute($params);
+
+        return $query;
+    }
 }
