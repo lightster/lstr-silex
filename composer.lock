@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "117a30caea8b8990f8bc6e17d41d815d",
+    "hash": "c2672a75efb39ef73b7e2d26d31b4c00",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -78,22 +78,22 @@
         },
         {
             "name": "lightster/assetrinc",
-            "version": "v0.0.6",
+            "version": "v0.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/assetrinc.git",
-                "reference": "ccc6dc6f8d4127de97553c3de34a18d48919051d"
+                "reference": "af1b511ee3dbc275ae57c5e96e37bcd2f456cb0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/ccc6dc6f8d4127de97553c3de34a18d48919051d",
-                "reference": "ccc6dc6f8d4127de97553c3de34a18d48919051d",
+                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/af1b511ee3dbc275ae57c5e96e37bcd2f456cb0b",
+                "reference": "af1b511ee3dbc275ae57c5e96e37bcd2f456cb0b",
                 "shasum": ""
             },
             "require": {
                 "kriswallsmith/assetic": "~1.1",
                 "php": ">=5.3.3",
-                "zacharyrankin/sprocketeer": "0.0.5"
+                "zacharyrankin/sprocketeer": "0.0.6"
             },
             "type": "library",
             "autoload": {
@@ -110,7 +110,7 @@
                 "lightster",
                 "php"
             ],
-            "time": "2014-03-13 04:02:23"
+            "time": "2014-03-20 19:21:48"
         },
         {
             "name": "pimple/pimple",
@@ -639,16 +639,16 @@
         },
         {
             "name": "zacharyrankin/sprocketeer",
-            "version": "v0.0.5",
+            "version": "v0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zacharyrankin/sprocketeer.git",
-                "reference": "5920d82a4d651bbf8bb43a764fbae1f73ec769a2"
+                "reference": "1843978b1e2a765fe5d0ebbd8e9a8f62a963e198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zacharyrankin/sprocketeer/zipball/5920d82a4d651bbf8bb43a764fbae1f73ec769a2",
-                "reference": "5920d82a4d651bbf8bb43a764fbae1f73ec769a2",
+                "url": "https://api.github.com/repos/zacharyrankin/sprocketeer/zipball/1843978b1e2a765fe5d0ebbd8e9a8f62a963e198",
+                "reference": "1843978b1e2a765fe5d0ebbd8e9a8f62a963e198",
                 "shasum": ""
             },
             "require": {
@@ -681,7 +681,7 @@
                 }
             ],
             "description": "Sprocketeer is a PHP library for getting a simple list of files from a sprocket-like manifest.",
-            "homepage": "http://github.com/zacharyrankin/Sprocketeer",
+            "homepage": "http://github.com/zacharyrankin/sprocketeer",
             "keywords": [
                 "Sprockets",
                 "asset",
@@ -689,7 +689,7 @@
                 "php",
                 "sass"
             ],
-            "time": "2014-03-07 10:28:12"
+            "time": "2014-03-19 04:42:56"
         }
     ],
     "packages-dev": [
