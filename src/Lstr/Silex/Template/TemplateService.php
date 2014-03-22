@@ -10,6 +10,8 @@
 
 namespace Lstr\Silex\Template;
 
+use ArrayObject;
+
 use Silex\Application;
 
 class TemplateService
@@ -39,6 +41,9 @@ class TemplateService
         $renderer = $app['lstr.template.renderer'][$file_ext];
 
         $paths   = $this->path;
+        if ($paths instanceof ArrayObject) {
+            $paths = $paths->getArrayCopy();
+        }
         $paths[] = '';
         foreach ($paths as $path) {
             $name_path = $path . '/' . $name;
