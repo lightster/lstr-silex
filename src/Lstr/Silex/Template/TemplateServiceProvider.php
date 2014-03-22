@@ -8,11 +8,9 @@
  * that is distributed with this source code.
  */
 
-namespace Lstr\Silex\Provider;
+namespace Lstr\Silex\Template;
 
 use ArrayObject;
-
-use Lstr\Silex\Service\TemplateService;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;

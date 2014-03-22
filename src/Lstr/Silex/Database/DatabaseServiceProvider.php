@@ -8,9 +8,7 @@
  * that is distributed with this source code.
  */
 
-namespace Lstr\Silex\Provider;
-
-use Lstr\Silex\Service\DatabaseService;
+namespace Lstr\Silex\Database;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;

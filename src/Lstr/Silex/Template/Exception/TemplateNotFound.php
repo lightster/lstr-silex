@@ -8,16 +8,16 @@
  * that is distributed with this source code.
  */
 
-namespace Lstr\Silex\Service\Exception;
+namespace Lstr\Silex\Template\Exception;
 
 use Exception;
 
-class UnknownTemplateRender extends Exception
+class TemplateNotFound extends Exception
 {
-    public function __construct($file_ext)
+    public function __construct($name, array $paths)
     {
         parent::__construct(
-            "Unknown template renderer for file type '{$file_ext}'."
+            "Could not find template '{$name}'. Checked in:\n - " . implode("\n - ", $paths) . "\n"
         );
     }
 }

@@ -8,7 +8,7 @@
  * that is distributed with this source code.
  */
 
-namespace Lstr\Silex\Provider;
+namespace Lstr\Silex\Asset;
 
 use ArrayObject;
 

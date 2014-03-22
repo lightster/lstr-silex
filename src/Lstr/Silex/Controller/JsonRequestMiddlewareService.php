@@ -8,7 +8,7 @@
  * that is distributed with this source code.
  */
 
-namespace Lstr\Silex\Service;
+namespace Lstr\Silex\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 
