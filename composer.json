@@ -8,11 +8,11 @@
 	],
 	"homepage": "http://lightdatasys.com",
 	"require": {
-		"lightster/lstr-silex-app":        "0.0.0",
-		"lightster/lstr-silex-asset":      "0.0.0",
-		"lightster/lstr-silex-config":     "0.0.0",
-		"lightster/lstr-silex-controller": "0.0.0",
-		"lightster/lstr-silex-database":   "0.0.0",
-		"lightster/lstr-silex-template":   "0.0.0"
+		"lightster/lstr-silex-app":        "0.0.1",
+		"lightster/lstr-silex-asset":      "0.0.1",
+		"lightster/lstr-silex-config":     "0.0.1",
+		"lightster/lstr-silex-controller": "0.0.1",
+		"lightster/lstr-silex-database":   "0.0.1",
+		"lightster/lstr-silex-template":   "0.0.1"
 	}
 }

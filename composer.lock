@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "7cffc82a919db3020feb52825b0bcbc9",
+    "hash": "e8e60e199ee4b3724913f0b26d62835d",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -114,16 +114,16 @@
         },
         {
             "name": "lightster/lstr-silex-app",
-            "version": "v0.0.0",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-app.git",
-                "reference": "066a9afe047e5327668d27b2efa0a4551163a413"
+                "reference": "fd2620f200ee36444b9e95f420a856e28058e95c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-app/zipball/066a9afe047e5327668d27b2efa0a4551163a413",
-                "reference": "066a9afe047e5327668d27b2efa0a4551163a413",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-app/zipball/fd2620f200ee36444b9e95f420a856e28058e95c",
+                "reference": "fd2620f200ee36444b9e95f420a856e28058e95c",
                 "shasum": ""
             },
             "require": {
@@ -133,7 +133,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Lstr\\Silex\\App": "src/Lstr/Silex/"
+                    "Lstr\\Silex\\App": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -144,20 +144,20 @@
                 "lstr",
                 "silex"
             ],
-            "time": "2014-03-22 16:57:03"
+            "time": "2014-03-23 04:24:05"
         },
         {
             "name": "lightster/lstr-silex-asset",
-            "version": "v0.0.0",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-asset.git",
-                "reference": "a02e199920ed28cdf744afe523e07117bea334dc"
+                "reference": "e07853145c1239db5a8ce4ba030e8b0295ff22cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-asset/zipball/a02e199920ed28cdf744afe523e07117bea334dc",
-                "reference": "a02e199920ed28cdf744afe523e07117bea334dc",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-asset/zipball/e07853145c1239db5a8ce4ba030e8b0295ff22cd",
+                "reference": "e07853145c1239db5a8ce4ba030e8b0295ff22cd",
                 "shasum": ""
             },
             "require": {
@@ -168,7 +168,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Lstr\\Silex\\Asset\\": "src/Lstr/Silex"
+                    "Lstr\\Silex\\Asset\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -180,20 +180,20 @@
                 "lstr",
                 "silex"
             ],
-            "time": "2014-03-22 16:56:36"
+            "time": "2014-03-23 04:28:28"
         },
         {
             "name": "lightster/lstr-silex-config",
-            "version": "v0.0.0",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-config.git",
-                "reference": "2993439abea231cebc64d2ca25abdb12bc23b4a7"
+                "reference": "90d69b64c80b42bd10e1d9a94aae36dd025cfcb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-config/zipball/2993439abea231cebc64d2ca25abdb12bc23b4a7",
-                "reference": "2993439abea231cebc64d2ca25abdb12bc23b4a7",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-config/zipball/90d69b64c80b42bd10e1d9a94aae36dd025cfcb3",
+                "reference": "90d69b64c80b42bd10e1d9a94aae36dd025cfcb3",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Lstr\\Silex\\Config\\": "src/Lstr/Silex"
+                    "Lstr\\Silex\\Config\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -215,20 +215,20 @@
                 "lstr",
                 "silex"
             ],
-            "time": "2014-03-22 17:00:08"
+            "time": "2014-03-23 04:28:39"
         },
         {
             "name": "lightster/lstr-silex-controller",
-            "version": "v0.0.0",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-controller.git",
-                "reference": "3e1335dae30ff80399ceff588dde51cb029f6201"
+                "reference": "8159230ac16bd04ed3d33a26fd6dc44bd40b34f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-controller/zipball/3e1335dae30ff80399ceff588dde51cb029f6201",
-                "reference": "3e1335dae30ff80399ceff588dde51cb029f6201",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-controller/zipball/8159230ac16bd04ed3d33a26fd6dc44bd40b34f9",
+                "reference": "8159230ac16bd04ed3d33a26fd6dc44bd40b34f9",
                 "shasum": ""
             },
             "require": {
@@ -238,7 +238,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Lstr\\Silex\\Controller\\": "src/Lstr/Silex"
+                    "Lstr\\Silex\\Controller\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -250,20 +250,20 @@
                 "lstr",
                 "silex"
             ],
-            "time": "2014-03-22 17:01:32"
+            "time": "2014-03-23 04:28:48"
         },
         {
             "name": "lightster/lstr-silex-database",
-            "version": "v0.0.0",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-database.git",
-                "reference": "cc72f56e9fbb5232c3e88ea8b29914dfb9b61545"
+                "reference": "ff471cc673f561937d6c51c0ccbfcf737d5dee82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-database/zipball/cc72f56e9fbb5232c3e88ea8b29914dfb9b61545",
-                "reference": "cc72f56e9fbb5232c3e88ea8b29914dfb9b61545",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-database/zipball/ff471cc673f561937d6c51c0ccbfcf737d5dee82",
+                "reference": "ff471cc673f561937d6c51c0ccbfcf737d5dee82",
                 "shasum": ""
             },
             "require": {
@@ -285,20 +285,20 @@
                 "lstr",
                 "silex"
             ],
-            "time": "2014-03-22 17:03:21"
+            "time": "2014-03-23 04:24:42"
         },
         {
             "name": "lightster/lstr-silex-template",
-            "version": "v0.0.0",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-template.git",
-                "reference": "0b058d67f2a115d7671f156d8dc921c12f47106b"
+                "reference": "715d453c9fcc625f86302697b45230799067aa22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-template/zipball/0b058d67f2a115d7671f156d8dc921c12f47106b",
-                "reference": "0b058d67f2a115d7671f156d8dc921c12f47106b",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-template/zipball/715d453c9fcc625f86302697b45230799067aa22",
+                "reference": "715d453c9fcc625f86302697b45230799067aa22",
                 "shasum": ""
             },
             "require": {
@@ -308,7 +308,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Lstr\\Silex\\Template\\": "src/Lstr/Silex"
+                    "Lstr\\Silex\\Template\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -320,7 +320,7 @@
                 "silex",
                 "template"
             ],
-            "time": "2014-03-22 17:05:06"
+            "time": "2014-03-23 04:29:21"
         },
         {
             "name": "pimple/pimple",
