@@ -258,12 +258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-database.git",
-                "reference": "ff471cc673f561937d6c51c0ccbfcf737d5dee82"
+                "reference": "9f12f2964ea05249bc19c056eee596d76c9f4b5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-database/zipball/ff471cc673f561937d6c51c0ccbfcf737d5dee82",
-                "reference": "ff471cc673f561937d6c51c0ccbfcf737d5dee82",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-database/zipball/9f12f2964ea05249bc19c056eee596d76c9f4b5f",
+                "reference": "9f12f2964ea05249bc19c056eee596d76c9f4b5f",
                 "shasum": ""
             },
             "require": {
@@ -273,7 +273,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Lstr\\Silex\\Database\\": "src/Silex"
+                    "Lstr\\Silex\\Database\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -285,7 +285,7 @@
                 "lstr",
                 "silex"
             ],
-            "time": "2014-03-23 04:24:42"
+            "time": "2014-03-23 04:51:16"
         },
         {
             "name": "lightster/lstr-silex-template",
@@ -477,7 +477,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Igor Wiedler",
