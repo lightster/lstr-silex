@@ -7,14 +7,12 @@
 		"lightster"
 	],
 	"homepage": "http://lightdatasys.com",
-	"autoload": {
-		"psr-0": {
-			"Lstr\\": "src/"
-		}
-	},
 	"require": {
-		"php": ">=5.3",
-		"lightster/assetrinc": "0.0.7",
-		"silex/silex": "~1.1"
+		"lightster/lstr-silex-app":        "0.0.0",
+		"lightster/lstr-silex-asset":      "0.0.0",
+		"lightster/lstr-silex-config":     "0.0.0",
+		"lightster/lstr-silex-controller": "0.0.0",
+		"lightster/lstr-silex-database":   "0.0.0",
+		"lightster/lstr-silex-template":   "0.0.0"
 	}
 }

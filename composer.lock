@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c2672a75efb39ef73b7e2d26d31b4c00",
+    "hash": "7cffc82a919db3020feb52825b0bcbc9",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -111,6 +111,216 @@
                 "php"
             ],
             "time": "2014-03-20 19:21:48"
+        },
+        {
+            "name": "lightster/lstr-silex-app",
+            "version": "v0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lightster/lstr-silex-app.git",
+                "reference": "066a9afe047e5327668d27b2efa0a4551163a413"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-app/zipball/066a9afe047e5327668d27b2efa0a4551163a413",
+                "reference": "066a9afe047e5327668d27b2efa0a4551163a413",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "silex/silex": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lstr\\Silex\\App": "src/Lstr/Silex/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Lstr/Silex/App Quick-start Library",
+            "homepage": "http://lightdatasys.com",
+            "keywords": [
+                "lightster",
+                "lstr",
+                "silex"
+            ],
+            "time": "2014-03-22 16:57:03"
+        },
+        {
+            "name": "lightster/lstr-silex-asset",
+            "version": "v0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lightster/lstr-silex-asset.git",
+                "reference": "a02e199920ed28cdf744afe523e07117bea334dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-asset/zipball/a02e199920ed28cdf744afe523e07117bea334dc",
+                "reference": "a02e199920ed28cdf744afe523e07117bea334dc",
+                "shasum": ""
+            },
+            "require": {
+                "lightster/assetrinc": "0.0.7",
+                "php": ">=5.3",
+                "silex/silex": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lstr\\Silex\\Asset\\": "src/Lstr/Silex"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Lstr/Silex/Asset Library",
+            "homepage": "http://lightdatasys.com",
+            "keywords": [
+                "asset",
+                "lightster",
+                "lstr",
+                "silex"
+            ],
+            "time": "2014-03-22 16:56:36"
+        },
+        {
+            "name": "lightster/lstr-silex-config",
+            "version": "v0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lightster/lstr-silex-config.git",
+                "reference": "2993439abea231cebc64d2ca25abdb12bc23b4a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-config/zipball/2993439abea231cebc64d2ca25abdb12bc23b4a7",
+                "reference": "2993439abea231cebc64d2ca25abdb12bc23b4a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "silex/silex": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lstr\\Silex\\Config\\": "src/Lstr/Silex"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Lstr/Silex/Config Library",
+            "homepage": "http://lightdatasys.com",
+            "keywords": [
+                "config",
+                "lightster",
+                "lstr",
+                "silex"
+            ],
+            "time": "2014-03-22 17:00:08"
+        },
+        {
+            "name": "lightster/lstr-silex-controller",
+            "version": "v0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lightster/lstr-silex-controller.git",
+                "reference": "3e1335dae30ff80399ceff588dde51cb029f6201"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-controller/zipball/3e1335dae30ff80399ceff588dde51cb029f6201",
+                "reference": "3e1335dae30ff80399ceff588dde51cb029f6201",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "silex/silex": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lstr\\Silex\\Controller\\": "src/Lstr/Silex"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Lstr/Silex/Controller Library",
+            "homepage": "http://lightdatasys.com",
+            "keywords": [
+                "controller",
+                "lightster",
+                "lstr",
+                "silex"
+            ],
+            "time": "2014-03-22 17:01:32"
+        },
+        {
+            "name": "lightster/lstr-silex-database",
+            "version": "v0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lightster/lstr-silex-database.git",
+                "reference": "cc72f56e9fbb5232c3e88ea8b29914dfb9b61545"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-database/zipball/cc72f56e9fbb5232c3e88ea8b29914dfb9b61545",
+                "reference": "cc72f56e9fbb5232c3e88ea8b29914dfb9b61545",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "silex/silex": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lstr\\Silex\\Database\\": "src/Silex"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Lstr/Silex/Database Library",
+            "homepage": "http://lightdatasys.com",
+            "keywords": [
+                "database",
+                "lightster",
+                "lstr",
+                "silex"
+            ],
+            "time": "2014-03-22 17:03:21"
+        },
+        {
+            "name": "lightster/lstr-silex-template",
+            "version": "v0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lightster/lstr-silex-template.git",
+                "reference": "0b058d67f2a115d7671f156d8dc921c12f47106b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-template/zipball/0b058d67f2a115d7671f156d8dc921c12f47106b",
+                "reference": "0b058d67f2a115d7671f156d8dc921c12f47106b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "silex/silex": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lstr\\Silex\\Template\\": "src/Lstr/Silex"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Lstr/Silex/Template Library",
+            "homepage": "http://lightdatasys.com",
+            "keywords": [
+                "lightster",
+                "lstr",
+                "silex",
+                "template"
+            ],
+            "time": "2014-03-22 17:05:06"
         },
         {
             "name": "pimple/pimple",
@@ -702,9 +912,9 @@
     "stability-flags": [
 
     ],
-    "platform": {
-        "php": ">=5.3"
-    },
+    "platform": [
+
+    ],
     "platform-dev": [
 
     ]
