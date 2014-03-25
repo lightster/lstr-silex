@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "fcb3dc50fcc410b2fddb47a3c61a3b8f",
+    "hash": "b513842ff25d3e18bb357735a8a9259a",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -254,16 +254,16 @@
         },
         {
             "name": "lightster/lstr-silex-database",
-            "version": "v0.0.1",
+            "version": "v0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-database.git",
-                "reference": "9f12f2964ea05249bc19c056eee596d76c9f4b5f"
+                "reference": "a750ce7c865d50b2267bdb7a3d0a44c925a6c7ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-database/zipball/9f12f2964ea05249bc19c056eee596d76c9f4b5f",
-                "reference": "9f12f2964ea05249bc19c056eee596d76c9f4b5f",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-database/zipball/a750ce7c865d50b2267bdb7a3d0a44c925a6c7ec",
+                "reference": "a750ce7c865d50b2267bdb7a3d0a44c925a6c7ec",
                 "shasum": ""
             },
             "require": {
@@ -285,7 +285,7 @@
                 "lstr",
                 "silex"
             ],
-            "time": "2014-03-23 04:51:16"
+            "time": "2014-03-25 04:48:56"
         },
         {
             "name": "lightster/lstr-silex-template",
