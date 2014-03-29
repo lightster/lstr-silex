@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b513842ff25d3e18bb357735a8a9259a",
+    "hash": "825c0b8c48a4c907e293256a3c30559f",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -77,21 +77,68 @@
             "time": "2013-07-19 00:03:27"
         },
         {
-            "name": "lightster/assetrinc",
-            "version": "v0.0.7",
+            "name": "leafo/scssphp",
+            "version": "v0.0.9",
             "source": {
                 "type": "git",
-                "url": "https://github.com/lightster/assetrinc.git",
-                "reference": "af1b511ee3dbc275ae57c5e96e37bcd2f456cb0b"
+                "url": "https://github.com/leafo/scssphp.git",
+                "reference": "a06d702ebf9fabb22542bbb27cc12a905813bb6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/af1b511ee3dbc275ae57c5e96e37bcd2f456cb0b",
-                "reference": "af1b511ee3dbc275ae57c5e96e37bcd2f456cb0b",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/a06d702ebf9fabb22542bbb27cc12a905813bb6d",
+                "reference": "a06d702ebf9fabb22542bbb27cc12a905813bb6d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "php": ">=5.3.0",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "bin": [
+                "pscss"
+            ],
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "scss.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://leafo.net/scssphp/",
+            "time": "2013-12-23 23:28:02"
+        },
+        {
+            "name": "lightster/assetrinc",
+            "version": "v0.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lightster/assetrinc.git",
+                "reference": "69827a69f55370fe8070a031a150ec13957fbd22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/69827a69f55370fe8070a031a150ec13957fbd22",
+                "reference": "69827a69f55370fe8070a031a150ec13957fbd22",
                 "shasum": ""
             },
             "require": {
                 "kriswallsmith/assetic": "~1.1",
+                "leafo/scssphp": "0.0.9",
                 "php": ">=5.3.3",
                 "zacharyrankin/sprocketeer": "0.0.6"
             },
@@ -110,7 +157,7 @@
                 "lightster",
                 "php"
             ],
-            "time": "2014-03-20 19:21:48"
+            "time": "2014-03-28 04:34:07"
         },
         {
             "name": "lightster/lstr-silex-app",
@@ -148,20 +195,20 @@
         },
         {
             "name": "lightster/lstr-silex-asset",
-            "version": "v0.0.1",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-asset.git",
-                "reference": "e07853145c1239db5a8ce4ba030e8b0295ff22cd"
+                "reference": "347217d16363b7b614f78102e5da2dc55ae391f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-asset/zipball/e07853145c1239db5a8ce4ba030e8b0295ff22cd",
-                "reference": "e07853145c1239db5a8ce4ba030e8b0295ff22cd",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-asset/zipball/347217d16363b7b614f78102e5da2dc55ae391f5",
+                "reference": "347217d16363b7b614f78102e5da2dc55ae391f5",
                 "shasum": ""
             },
             "require": {
-                "lightster/assetrinc": "0.0.7",
+                "lightster/assetrinc": "0.0.9",
                 "php": ">=5.3",
                 "silex/silex": "~1.1"
             },
@@ -180,7 +227,7 @@
                 "lstr",
                 "silex"
             ],
-            "time": "2014-03-23 04:28:28"
+            "time": "2014-03-28 04:39:20"
         },
         {
             "name": "lightster/lstr-silex-config",
