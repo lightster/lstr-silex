@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "234b1cfc3429fd0d8c7b02a08fde3b03",
+    "hash": "e19bc30ec800ed830b2a5d3a16928715",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
@@ -124,23 +124,23 @@
         },
         {
             "name": "lightster/assetrinc",
-            "version": "v0.0.9",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/assetrinc.git",
-                "reference": "69827a69f55370fe8070a031a150ec13957fbd22"
+                "reference": "4505aa110fc1a0f951fb91afd6e86b562053a26f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/69827a69f55370fe8070a031a150ec13957fbd22",
-                "reference": "69827a69f55370fe8070a031a150ec13957fbd22",
+                "url": "https://api.github.com/repos/lightster/assetrinc/zipball/4505aa110fc1a0f951fb91afd6e86b562053a26f",
+                "reference": "4505aa110fc1a0f951fb91afd6e86b562053a26f",
                 "shasum": ""
             },
             "require": {
                 "kriswallsmith/assetic": "~1.1",
                 "leafo/scssphp": "0.0.9",
                 "php": ">=5.3.3",
-                "zacharyrankin/sprocketeer": "0.0.6"
+                "zacharyrankin/sprocketeer": "~0.1"
             },
             "type": "library",
             "autoload": {
@@ -157,7 +157,7 @@
                 "lightster",
                 "php"
             ],
-            "time": "2014-03-28 04:34:07"
+            "time": "2014-04-08 04:49:05"
         },
         {
             "name": "lightster/lstr-silex-app",
@@ -195,20 +195,20 @@
         },
         {
             "name": "lightster/lstr-silex-asset",
-            "version": "v0.0.3",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lightster/lstr-silex-asset.git",
-                "reference": "347217d16363b7b614f78102e5da2dc55ae391f5"
+                "reference": "dafa49f731aeb59f385d5165d29d0f7a6ec936ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lightster/lstr-silex-asset/zipball/347217d16363b7b614f78102e5da2dc55ae391f5",
-                "reference": "347217d16363b7b614f78102e5da2dc55ae391f5",
+                "url": "https://api.github.com/repos/lightster/lstr-silex-asset/zipball/dafa49f731aeb59f385d5165d29d0f7a6ec936ae",
+                "reference": "dafa49f731aeb59f385d5165d29d0f7a6ec936ae",
                 "shasum": ""
             },
             "require": {
-                "lightster/assetrinc": "0.0.9",
+                "lightster/assetrinc": "~0.1",
                 "php": ">=5.3",
                 "silex/silex": "~1.1"
             },
@@ -227,7 +227,7 @@
                 "lstr",
                 "silex"
             ],
-            "time": "2014-03-28 04:39:20"
+            "time": "2014-04-08 05:00:15"
         },
         {
             "name": "lightster/lstr-silex-config",
@@ -543,17 +543,17 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v2.4.2",
+            "version": "v2.4.3",
             "target-dir": "Symfony/Component/Debug",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Debug.git",
-                "reference": "23b5f4fcad883679d9a6e1cbc568247fe606d8ee"
+                "reference": "cf012d37f7e0d059fd6b35607e99761b33ccf4ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Debug/zipball/23b5f4fcad883679d9a6e1cbc568247fe606d8ee",
-                "reference": "23b5f4fcad883679d9a6e1cbc568247fe606d8ee",
+                "url": "https://api.github.com/repos/symfony/Debug/zipball/cf012d37f7e0d059fd6b35607e99761b33ccf4ed",
+                "reference": "cf012d37f7e0d059fd6b35607e99761b33ccf4ed",
                 "shasum": ""
             },
             "require": {
@@ -596,11 +596,11 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-11 13:52:09"
+            "time": "2014-03-26 18:07:42"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.4.2",
+            "version": "v2.4.3",
             "target-dir": "Symfony/Component/EventDispatcher",
             "source": {
                 "type": "git",
@@ -656,21 +656,24 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.4.2",
+            "version": "v2.4.3",
             "target-dir": "Symfony/Component/HttpFoundation",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "cdee7c84ba8b2a8aafa1c055f5cb4f640d81c129"
+                "reference": "11ad7352c7bfa12145a0df8e1c4c303c585ce169"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/cdee7c84ba8b2a8aafa1c055f5cb4f640d81c129",
-                "reference": "cdee7c84ba8b2a8aafa1c055f5cb4f640d81c129",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/11ad7352c7bfa12145a0df8e1c4c303c585ce169",
+                "reference": "11ad7352c7bfa12145a0df8e1c4c303c585ce169",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.4"
             },
             "type": "library",
             "extra": {
@@ -704,21 +707,21 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-11 15:39:28"
+            "time": "2014-03-26 11:35:33"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v2.4.2",
+            "version": "v2.4.3",
             "target-dir": "Symfony/Component/HttpKernel",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "445d6eee0eab2a6cfab41b5dc43f1b86ec34d110"
+                "reference": "f4e3f0fd1a08c1c4e2ffa044e6910f7ecc7ad317"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/445d6eee0eab2a6cfab41b5dc43f1b86ec34d110",
-                "reference": "445d6eee0eab2a6cfab41b5dc43f1b86ec34d110",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/f4e3f0fd1a08c1c4e2ffa044e6910f7ecc7ad317",
+                "reference": "f4e3f0fd1a08c1c4e2ffa044e6910f7ecc7ad317",
                 "shasum": ""
             },
             "require": {
@@ -777,21 +780,21 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-12 19:27:03"
+            "time": "2014-04-04 10:27:02"
         },
         {
             "name": "symfony/process",
-            "version": "v2.4.2",
+            "version": "v2.4.3",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "c175448bac997556f8ab972908a4e14c7291fb03"
+                "reference": "c09c3b08455c35688eee3e481fdfc85518ef01d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/c175448bac997556f8ab972908a4e14c7291fb03",
-                "reference": "c175448bac997556f8ab972908a4e14c7291fb03",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/c09c3b08455c35688eee3e481fdfc85518ef01d7",
+                "reference": "c09c3b08455c35688eee3e481fdfc85518ef01d7",
                 "shasum": ""
             },
             "require": {
@@ -826,11 +829,11 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2014-02-11 13:52:09"
+            "time": "2014-03-26 11:35:33"
         },
         {
             "name": "symfony/routing",
-            "version": "v2.4.2",
+            "version": "v2.4.3",
             "target-dir": "Symfony/Component/Routing",
             "source": {
                 "type": "git",
@@ -898,16 +901,16 @@
         },
         {
             "name": "zacharyrankin/sprocketeer",
-            "version": "v0.0.6",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zacharyrankin/sprocketeer.git",
-                "reference": "1843978b1e2a765fe5d0ebbd8e9a8f62a963e198"
+                "reference": "67848c7b5b79cedfd0ded5f3f267df4d196b9ed0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zacharyrankin/sprocketeer/zipball/1843978b1e2a765fe5d0ebbd8e9a8f62a963e198",
-                "reference": "1843978b1e2a765fe5d0ebbd8e9a8f62a963e198",
+                "url": "https://api.github.com/repos/zacharyrankin/sprocketeer/zipball/67848c7b5b79cedfd0ded5f3f267df4d196b9ed0",
+                "reference": "67848c7b5b79cedfd0ded5f3f267df4d196b9ed0",
                 "shasum": ""
             },
             "require": {
@@ -948,7 +951,7 @@
                 "php",
                 "sass"
             ],
-            "time": "2014-03-19 04:42:56"
+            "time": "2014-04-07 03:37:25"
         }
     ],
     "packages-dev": [
